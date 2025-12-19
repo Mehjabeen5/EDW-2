@@ -1,8 +1,4 @@
-fastapi
-uvicorn
-pydantic
-pandas
-requests
-groq
 streamlit
-python-dotenv
+snowflake-snowpark-python
+snowflake-connector-python
+pandas
