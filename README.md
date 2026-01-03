@@ -12,7 +12,7 @@ The system integrates SQL models, Snowpark Python, Cortex LLMs, and an agentic r
 
 ⸻
 
-# 📌 Authors
+#  Authors
 	•	Mehjabeen T Shaik
 	•	Myles Green
 	•	Sherin Kiruba Prem Anand
@@ -20,7 +20,7 @@ The system integrates SQL models, Snowpark Python, Cortex LLMs, and an agentic r
 
 ⸻
 
-# 📌 Features
+#  Features
 
 1. Snowflake-Native Data Models
 
@@ -112,7 +112,7 @@ All compute occurs in-warehouse.
 
 ⸻
 
-# 📂 Project Structure
+#  Project Structure
 
 app/
 │
@@ -153,7 +153,7 @@ README.md
 
 ⸻
 
-# 🧠 Cortex LLM Integration
+#  Cortex LLM Integration
 
 Cortex is used in three places:
 	1.	Sub-question generation
@@ -168,7 +168,7 @@ All prompts are securely escaped for SQL execution.
 
 ⸻
 
-# 🗄️ Data Layer (SQL Models)
+#  Data Layer (SQL Models)
 
 Your SQL models:
 	•	auto-compute revenue metrics
@@ -179,7 +179,7 @@ This design supports future expansion: forecasts, anomalies, cost-driver analysi
 
 ⸻
 
-# 🧪 Development Challenges Resolved
+#  Development Challenges Resolved
 	•	Git integration and conflicts
 	•	Snowflake schema mismatches (PUBLIC vs REASONING)
 	•	Warehouse suspension issues
@@ -190,7 +190,7 @@ All were resolved through schema standardization, better SQL organization, and c
 
 ⸻
 
-# ✔ Final Capabilities
+#  Final Capabilities
 
 The EDW-2 Reasoning Assistant now:
 	•	answers business questions in natural language
@@ -202,7 +202,7 @@ The EDW-2 Reasoning Assistant now:
 
 ⸻
 
-# 📦 Database & Data Setup (Snowflake)
+#  Database & Data Setup (Snowflake)
 
 This project includes a complete Snowflake SQL setup script that creates all required objects for the EDW-2 Reasoning Assistant. This removes guesswork for contributors and ensures that everyone works from the same canonical dataset.
 
@@ -242,7 +242,7 @@ This SQL script ensures:
 
 This also supports future extensions: contributors may swap out the mock data for live Honeywell EDW data simply by replacing REVENUE_TABLE.
 
-# 📥 Deployment Instructions
+#  Deployment Instructions
 
 Upload to Snowflake Git Integration
 	1.	Create a new Snowflake Git repository mapping
@@ -264,12 +264,10 @@ In Snowflake UI:
 
 The app will launch immediately.
 
-⸻
 
 
 
-# 📄 License
+
+#  License
 
 Enterprise demonstration project — internal use only.
-
-⸻
